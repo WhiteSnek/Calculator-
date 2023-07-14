@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Ubuntu&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.button {
+    font-size: 17px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 83px;
+}
+
+.button:hover {
+    background-color: darkgrey;
+}
+
+.item-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.button i{
+    display: flex;
+}
